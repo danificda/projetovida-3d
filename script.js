@@ -10,4 +10,6 @@ for (let i =0; i < botoes.length; i++){
         textos[i].classlist.add("ativo")
     }
 console.log(botoes);
-}
+} 
+const contadores = document.querySelectorAll("contador");
+const tempoObjetivo1 = new Date("2026-12-28T23:59:59");
